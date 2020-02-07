@@ -15,28 +15,28 @@ namespace Tarea2
         /// <summary>
         /// Nombre del alumno.
         /// </summary>
-        public string Nombre { get; }
+        public string Nombre { get; set; }
         /// <summary>
         /// Apellido paterno.
         /// </summary>
-        public string ApPaterno { get; }
+        public string ApPaterno { get; set; }
         /// <summary>
         /// Apellido materno.
         /// </summary>
-        public string ApMaterno { get; }
+        public string ApMaterno { get; set; }
 
         /// <summary>
         /// Calificación de proyecto.
         /// </summary>
-        public int CalProyecto { get; }
+        public int CalProyecto { get; set; }
         /// <summary>
         /// Cantidad de tareas.
         /// </summary>
-        public int CantTareas { get; }
+        public int CantTareas { get; set; }
         /// <summary>
         /// Cantidad de participaciones.
         /// </summary>
-        public int CantParticipaciones { get; }
+        public int CantParticipaciones { get; set; }
 
         /// <summary>
         /// Constructor de un Alumno.
@@ -101,7 +101,7 @@ namespace Tarea2
                 nombre = GetValidString("Ingrese el nombre del alumno: ");
                 ap_paterno = GetValidString("Ingrese el apellido paterno del" +
                     " alumno: ");
-                ap_materno = GetValidString("Ingrese el apellido materno del" + 
+                ap_materno = GetValidString("Ingrese el apellido materno del" +
                     " alumno: ");
                 cal_proyecto = GetValidPositiveInt(0, 10, "Ingrese la " +
                     "calificación del proyecto: ");
