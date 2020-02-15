@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPrimeraGUI", "MiPrimeraGUI\MiPrimeraGUI.csproj", "{0DA90C75-80A9-460A-9FCA-5D18A9C228E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA90C75-80A9-460A-9FCA-5D18A9C228E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA90C75-80A9-460A-9FCA-5D18A9C228E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA90C75-80A9-460A-9FCA-5D18A9C228E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA90C75-80A9-460A-9FCA-5D18A9C228E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CA19B52-EC83-4366-BD5F-87EB2ED52A1C}
+	EndGlobalSection
+EndGlobal
